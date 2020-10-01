@@ -35,12 +35,12 @@ print(resp)
 
 
 
-salario = 55000
-if salario > 900:
-	seguro_social = salario*0.0975
-	seguro_educativo = salario*0.0125
+sala = 55000
+if sala > 900:
+	seguro_social = sala*0.0975
+	seguro_educativo = sala*0.0125
 	print("El seguro social es de: " + str(seguro_social) + " El seguro educativo es de: " + str(seguro_educativo))
-if salario < 900:
+if sala < 900:
 	print("No se le descuenta seguro")
 
 
@@ -78,10 +78,9 @@ if haveSkills and knowPython and (LiveIn == 'PANAMA' or LiveIn == 'COLON') and (
     velocidad = 0.2
 
     if 10 > tiempo > 1 and velocidad*tiempo > 4 and distancia > 0.2 and tiempo and (not(velocidad/t**2 > 0.1) or distancia < 1 ) and (velocidad*tiempo > 0.5 or distancia/tiempo > 10):
-    	print("Se choco")
+    	print("colisiono")
 
 
-#problema robot
 
 algunas_provincias = ['PanAma', 'ColOn', 'DArien', 'VerAguas', 'ChIriqui', 'HErrera', 'LOs SAntOs']
 for provincia in algunas_provincias:
